@@ -1,0 +1,22 @@
+{
+  "name": "tglab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.2.0",
+    "redux": "^4.1.2"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "description": ""
+}
