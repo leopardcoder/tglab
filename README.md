@@ -8,6 +8,7 @@ PATH and PORT variables should be configured in .env file.
 ___________________________________
 
 Endpoinst of API are: 
+
 /list/ - provides a JSON object of files in a path.
 
 /scan/ - provides an updated JSON object of a files in a path.
@@ -24,5 +25,4 @@ Instalation: npm install
 
 ___________________________________
 
-To run a project on windows: npm run start-win. 
-On Unix/Max - npm run start-unix.
+To run a project run: node server.js
