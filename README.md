@@ -5,6 +5,7 @@ API is running on a specified port.
 
 PATH and PORT variables should be configured in .env file.
 
+___________________________________
 
 Endpoinst of API are: 
 /list/ - provides a JSON object of files in a path.
@@ -13,11 +14,15 @@ Endpoinst of API are:
 
 /download-state/ - provides object of files in a path.
 
+___________________________________
 
 Libraries: Node.js, Express.Js, Dotenv, Redux, Lodash, Fs
 
+___________________________________
 
 Instalation: npm install
+
+___________________________________
 
 To run a project on windows: npm run start-win. 
 On Unix/Max - npm run start-unix.
