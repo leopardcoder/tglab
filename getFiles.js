@@ -2,11 +2,16 @@ import fs from "fs";
 import _ from "lodash";
 import {addFiles, updateFiles} from "./actions/actions.js";
 import dotenv from "dotenv"
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+
+const testPath = join(dirname(fileURLToPath(import.meta.url)), '/testFiles/');
+const PATH = process.env.FILES_PATH || testPath
 
 dotenv.config();
 
 export function getFiles(currentState) {
-    const files = fs.readdirSync(process.env.FILES_PATH)
+    const files = fs.readdirSync(PATH)
 
     if (currentState === [])
         getInitialFiles(files)
@@ -25,7 +30,7 @@ function getInitialFiles(files) {
 function checkFilesUpdate(currentState) {
 
     let stateFiles = []
-    const directoryFiles = fs.readdirSync(process.env.FILES_PATH)
+    const directoryFiles = fs.readdirSync(PATH)
     currentState.forEach(file => {
         stateFiles.push(file.name)
     })
