@@ -4,8 +4,8 @@ This API designed to get list of files from specified path.
 API is running on a specified port.
 
 PATH and PORT variables should be configured in .env file.
-In case these variables are not specified server will run on PORT 3000, 
-and files will be scanned from 'testFiles' catalog located in main directory.
+In a case these variables are not specified server will run on PORT 3000, 
+and files will be scanned from 'testFiles' catalog located in server directory.
 
 ___________________________________
 
