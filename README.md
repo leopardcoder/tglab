@@ -19,7 +19,7 @@ Endpoinst of API are:
 
 ___________________________________
 
-Libraries: Node.js, Express.Js, Dotenv, Redux, Lodash, Fs
+Libraries: Node.js (v14.15.4), Express.Js, Dotenv, Redux, Lodash, Fs
 
 ___________________________________
 
